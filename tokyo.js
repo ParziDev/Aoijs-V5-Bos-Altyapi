@@ -1,15 +1,16 @@
 const aoijs = require("aoi.js")
-const loader = new aoijs.LoadCommands(bot)
 const bot = new aoijs.Bot({
 token: process.env.token, 
 prefix: "$getServerVar[prefix]", 
 intents: "all" 
 }) 
+
+const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./komutlar/")
 
 //Callbackler
-bot.joinCommand()
-bot.leaveCommand()
+bot.onJoined()
+bot.onLeave()
 bot.onMessage()
 
 //Durum
