@@ -9,8 +9,6 @@ const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./komutlar/")
 
 //Callbackler
-bot.onJoined()
-bot.onLeave()
 bot.onMessage()
 
 //Durum
