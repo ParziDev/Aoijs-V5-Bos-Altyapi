@@ -4,9 +4,7 @@ const bot = new aoijs.Bot({
 token: process.env.token, 
 prefix: "$getServerVar[prefix]", 
 intents: "all" 
-})loader.load(bot.cmd,"./komutlar/")
-
-
+}) 
 loader.load(bot.cmd,"./komutlar/")
 
 //Callbackler
