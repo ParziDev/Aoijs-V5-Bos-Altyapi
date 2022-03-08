@@ -1,7 +1,7 @@
 {
-  "name": "-asdf",
+  "name": "ParzivâL",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://www.tokyocode.xyz/",
   "main": "tokyo.js",
   "scripts": {
     "start": "node tokyo.js"
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aoi.js": "^5.0.5",
+    "aoi.js": "^5.1.1",
     "ytdl-core-discord": "^1.3.1"
   }
 }
