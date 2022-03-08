@@ -8,12 +8,12 @@ intents: "all"
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./komutlar/")
 
-//Callbackler
+////////// Callbackler \\\\\\\\\\
 bot.onJoin()
 bot.onLeave()
 bot.onMessage()
 
-//Durum
+////////// Durum \\\\\\\\\\
 bot.status({
 text:"Tokyo Code",
 type:"PLAYING",
@@ -21,12 +21,12 @@ status:"dnd",
 time: 12
 })
 
-//Variableler
+////////// Variableler \\\\\\\\\\
 bot.variables({
 prefix:".",
 })
 
-//Komutlar
+//////////// Komutlar \\\\\\\\\\
 bot.command({
 name:"ping",
 aliases:"gecikme",
@@ -34,4 +34,4 @@ description:"Botun pingini gösterir.",
 code:`
 Pong! \`$botPingms\`
 `
-}) //Main komut taslağı
+})
