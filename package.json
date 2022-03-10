@@ -2,9 +2,9 @@
   "name": "ParzivâL",
   "version": "1.0.0",
   "description": "https://www.tokyocode.xyz/",
-  "main": "tokyo.js",
+  "main": "parzival.js",
   "scripts": {
-    "start": "node tokyo.js"
+    "start": "node parzival.js"
   },
   "engines": {
     "node": "16.6"
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aoi.js": "^5.1.1",
+    "aoi.js": "^5.1.0",
     "ytdl-core-discord": "^1.3.1"
   }
 }
